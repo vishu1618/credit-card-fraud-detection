@@ -1,1 +1,37 @@
+# Dataset — Kaggle prohibits redistribution, and it's 144MB
+data/raw/creditcard.csv
+data/processed/
 
+# Model artifacts — too large for git
+models/*.pkl
+models/*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
