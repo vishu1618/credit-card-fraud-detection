@@ -1,31 +1,3 @@
-"""
-train_pipeline.py
-End-to-end ML training pipeline for Credit Card Fraud Detection.
-
-Run this script to:
-  1. Load and validate the dataset
-  2. Engineer features and scale
-  3. Split into train/test (stratified)
-  4. Apply SMOTE to training data only
-  5. Train Logistic Regression, Random Forest, XGBoost
-  6. Compare all models
-  7. Tune XGBoost hyperparameters
-  8. Find optimal classification threshold
-  9. Evaluate final model
-  10. Save all artifacts to models/
-
-Usage:
-    python scripts/train_pipeline.py
-
-    # Skip tuning for faster run (uses default XGBoost params):
-    python scripts/train_pipeline.py --skip-tuning
-
-Prerequisites:
-    - pip install -r requirements.txt
-    - Dataset at data/raw/creditcard.csv
-      (Download from: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-"""
-
 import sys
 import os
 import argparse
