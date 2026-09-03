@@ -50,7 +50,6 @@ def compute_metrics(y_true, y_proba, threshold: float = 0.5) -> dict:
 def print_full_report(y_true, y_proba, threshold: float, model_name: str = "XGBoost") -> None:
     """
     Print a complete evaluation report: metrics table + confusion matrix.
-
     Args:
         y_true: Ground truth labels
         y_proba: Predicted probabilities
