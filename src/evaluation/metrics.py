@@ -9,7 +9,7 @@ missing a real fraud (false negative) is more costly than a false alarm.
 import logging
 import json
 import numpy as np
-import pandas as pd
+
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
