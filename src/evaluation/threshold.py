@@ -8,6 +8,7 @@ while keeping Precision above a minimum acceptable floor.
 
 Why this matters for fraud:
   - Missing fraud (low Recall) = real financial loss
+  
   - Too many false alarms (low Precision) = customer frustration
   - We optimize for high Recall with a Precision floor of >= 0.85
 """
